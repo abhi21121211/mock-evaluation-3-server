@@ -72,7 +72,7 @@ app.post("/login", async (req, res) => {
 
 
 
-    app.use("/",authentication,classifideRoutes)
+    app.use("/",classifideRoutes)
 
 
 
